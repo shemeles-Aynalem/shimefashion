@@ -1,0 +1,322 @@
+body {
+  font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+  margin: 0px 40px 0px 40px;
+  padding: 0;
+  border: 1px solid #ddd;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #888;
+    font-size: 16px;
+    line-height: 1.6em;
+    background-color: #fff;
+}
+
+ul {
+  
+  margin-left:-25px;
+  width:100%;
+}
+
+a:link {
+  
+  text-decoration: none; 
+}
+
+nav {
+ 
+  border-top: 1px solid #ccc;
+}
+
+nav ul li {
+  font: 13px Verdana, 'Lucida Grande';
+}
+
+
+nav ul  li {
+  display: inline-block;
+}
+nav ul li a {
+  line-height: 15px;
+  padding: 10px;
+  font-weight: bold;
+  color: #444;
+}
+nav ul li a:hover {
+  color:#09F;
+
+}
+
+header{
+  background: #fefefe;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header p{
+   display: inline-block;
+    margin-left:20px;
+  margin-right:40px;
+  color: red;
+  
+}
+
+.galleryH{
+   font-family: cursive;
+  text-align:center; 
+   height: 70px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.galleryH p{
+margin-top:-13px;
+}
+.section-heading{
+    margin-left: 20%;
+    line-height: 1em;
+    height: 100px;
+    width: 50%;
+  margin-top: 120px;
+    text-align: center;
+   
+}
+
+.section-heading p{
+  margin-top:30px;
+  font-family: cursive ,san serif;
+  font-size: 15px;
+}
+
+#upper{
+margin-top: 5px;  
+}
+
+h1{
+  
+    font-size: 1.5em;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.image {
+    
+    height: 350px;
+    margin-left:14.129%;
+    width: 30%;
+    border: 1px solid lightsteelblue;
+    border-radius: 6px;
+}
+
+.image img {
+    border-radius: 6px;
+    margin-left:1px;
+    margin-top: -155px;
+}
+
+#container{
+background-image: url("../images/parallax-bg.jpg");
+  background-repeat: no-repeat; 
+  border: none;
+}
+
+.image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.descs{
+  width:40%;
+  height:300px;
+  font-family: cursive, san serif;
+  float: right;
+  margin-right:13%;
+  margin-top: -350px;
+}
+
+.descs h2{
+  font-size: 18px;
+}
+
+.descs a{
+    color: #fff;
+    background-color: #689;
+    border-color: #d43076;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+
+.tired{
+  margin-top: 50px;
+}
+
+ .descs a:hover{
+      background-color: #555;
+      color: white;
+}
+
+div.gallery {
+   margin-top:50px;
+   margin-left:60px;
+  width: 250px;
+   height: 200px;
+  color: white;
+ 
+}
+
+.contlast{
+  width: 90%;
+  height: 365px;
+  margin-left:60px;
+ 
+}
+
+
+.cont{
+  width: 70%;
+  margin-left: 160px;
+
+}
+
+#logocont{
+  margin-top:100px;
+ width: 200px;
+
+
+}
+
+#logocont img{
+  margin-left: 40px;
+  
+ 
+}
+
+#logocont .desc{
+font-family: cursive;
+  color: white;
+}
+
+#gal{
+  margin-top: -10px;
+  width: 250px;
+  padding-right: 20px;
+  height: 255px;
+  margin-left: 18px;
+}
+
+#logocont:hover{
+  border: none;
+  opacity:1;
+}
+
+
+div.gallery:hover {
+   opacity: 0.85;
+}
+
+
+
+div.gallery img {
+    width: 250px;
+    height: 250px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    float: left;
+    width: 24.99999%;
+    
+}
+
+
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+section{
+ 
+  height: auto;
+
+}
+
+
+.container{
+   display: block;
+  margin-top: 100px;
+  height: 366px;
+}
+
+footer{
+  background: #29332f;
+  max-width: 100%;
+  height: 120px;
+  
+
+}
+
+footer{
+  background: #172035;
+  max-width: 100%;
+  height: 220px;
+  margin-top:80px;
+  
+}
+
+footer p{
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 80px;
+  font-family: cursive;
+}
+
+.lasta{
+  margin-top: 50px;
+  padding-top:15px;
+  border-top: 1px solid white;
+}
+.lasta a{
+  padding: 15px;
+  color: white;
+  font-style: italic;
+  font-size: 12px;
+  font-family: cursive;
+}
+.lasta a:hover{
+  text-decoration: underline;
+}
+
+.lasta img{
+  float: right;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}

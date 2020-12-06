@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: verdana;
+  margin: 0;
+}
+#header{
+  border: none;
+  height: 160px;
+}
+
+#mainBody{
+  text-align: center;
+  height: 650px;
+}
+section{
+  width: 70%;
+  margin-left: 5%;
+  float: left;
+}
+.dag2,.dag{
+  border:solid 1px;
+  text-align:justify;
+  padding: 2%;
+  
+}
+aside{
+  margin-top:-2px;
+  width: 30%;
+  float: right;
+  border-left: 1px solid #f1f1f1;
+  padding: 10px 50px 0px 20px;;
+}
+section{
+     width:60%
+}
+
+.promp{
+  font-style: italic;
+}
+form input{
+  width: 400px;
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+
+form textarea{
+  width: 475px;
+  height: 250px;
+  padding: 10px;
+  margin-top: 10px;
+}
+#FormTitle{
+  padding: 20px;
+  font-size: 25px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.left{
+  margin-right: 20px;
+  font-size: 18px;
+}
+#sub{
+  width: 475px;
+  margin-top:10px;
+}
+#mess{
+  position: relative;
+  right: 188px;
+}
